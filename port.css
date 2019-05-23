@@ -1,0 +1,235 @@
+
+    body{
+        margin:0;
+        padding: 0;
+        background: url(unsplash.jpg) no-repeat;
+        background-size: cover;
+        position: relative;
+            overflow-y: auto;
+        
+    }
+    
+    .nav{
+      width: 350px;
+      height: auto;
+      
+      position: fixed;
+      top:10%;
+      left: 0;
+    }
+
+    .nav a{
+      text-decoration: none;
+      font-size: 30px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      transition: 300ms;
+      height: 70px;
+      margin: 5px 0;
+      
+      display: inline-block;
+      background-color: black;
+      color:blanchedalmond;
+      line-height: 70px;
+      text-align: center;
+    }
+
+    
+    
+    a.active, .nav a:hover{
+      background-color: darkturquoise;
+      color: black;
+      width: 80%;
+    }
+
+    #a{
+      width: 75%;
+    }
+
+    #b{
+      width: 75%;
+    }
+
+    #c{
+      width: 75%;
+    }
+
+    #d{
+      width: 75%;
+    }
+
+    h1{
+        color:aliceblue; 
+        font-size: 40px;
+        letter-spacing: 3px;
+        font-weight: 100;
+    }
+
+    h4{
+        color:aliceblue;
+        font-size: 20px;
+        letter-spacing: 2px; 
+    }
+    .home{
+        width: 200px;
+        height: 80vh;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 40px;
+        text-align: center;
+        margin-left: 40%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        color: #FFF;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .box-img{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+
+    .about{
+      width: 200px;
+      height: 80vh;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 40px;
+        text-align: center;
+        margin-left: 40%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        color: #FFF;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .about p{
+      color: #FFF;
+      
+    }
+
+    .about .image{
+      width: 40%;
+      margin-left: 2%;
+      margin-right: 10px;
+      margin-bottom: 4%;
+      float: left;
+      
+    }
+
+    .image img{
+      width: 100%;
+    }
+
+    .port{
+      width: 500px;
+      height: 80vh;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 40px;
+        text-align: left;
+        margin-left: 35%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        color: #FFF;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .port .image{
+      width: 30%;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      float: left;
+    }
+
+    .port .image:hover{
+      background-color:black;
+      
+      opacity: 0.5;
+    }
+
+    .image img{
+      width: 100%;
+    }
+
+    .contact{
+      width: 200px;
+      height: 80vh;
+        padding: 40px;
+        text-align: center;
+        margin-left: 40%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        color: #FFF;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }    
+
+    .inputtext{
+      width: 100%;
+      height: 65px;
+      border: 3px solid black;
+      color: #FFF;
+      background-color: rgba(0, 0, 0, 0.7);
+      font-size: 14px;
+      padding: 0 10px;
+      float: left;
+      margin-bottom: 15px;
+    }
+
+    .inputmessage{
+      width: 100%;
+      height: 165px;
+      border: 3px solid black;
+      color: #FFF;
+      background-color: rgba(0, 0, 0, 0.7);
+      font-size: 14px;
+      padding: 0 10px;
+      float: left;
+    }
+
+    .submit{
+      width: 60px;
+      height: 30px;
+      background-color: white;
+      color: black;
+      font-size: 14px;
+      border: none;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      float: left;
+      clear: both;
+      margin-top: 25px;
+    }
+
+    .submit:hover{
+      background-color: darkturquoise;
+      color: black;
+      width: 32%;
+    }
+
+    footer { 
+  color:#000;
+  background-color: darkturquoise;
+      opacity: 0.7;
+      height: 80px;
+      position: relative;
+      margin-bottom: 0;
+      
+}
+
+  .foota{
+    margin-left: 100px;
+    margin-top: 1.5%;
+    float: left;
+  }
+
+  .footb{
+    margin-left: 200px;
+    margin-top: 1.5%;
+    float: left;
+  }
+
+  .footc{
+    margin-left: 200px;
+    margin-top: 1.5%;
+    float: left;
+  }
+   
+   
