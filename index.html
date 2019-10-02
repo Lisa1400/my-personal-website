@@ -1,0 +1,201 @@
+<html>
+    <head>
+        <title>My Personal Webpage</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
+    </head>
+    <body>
+           <!--Main Navigation-->
+        <header>
+                
+                <nav class="navbar fixed-top navbar-expand-lg navbar-dark pink scrolling-navbar">
+                  
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <!-- Navigation / Menu Section-->
+                  <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#about">ABOUT<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#skills">SKILLS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contacts">CONTACTS</a>
+                      </li>
+                    </ul>
+                    
+                    
+                </nav>
+              
+              </header>
+              <!--Main Navigation-->
+    
+
+            
+        <!-- About Section -->
+        <section id="about">
+          <h1 class="section-heading">ABOUT ME</h1>
+            <div class="row">
+              <div class="col-md-6">
+                  <img class="about-image" src="images/lisa-edit2.png">
+              </div>
+              <div class="col-md-6">
+                  <h2>I AM LISA MABE</h2>
+                  <p>My IT career as a Junior Developer started in December 2017.  
+                  <br><br/>
+                  I did my very first software testing course drawing up reports on bugs and defects.
+                    <br><br/>
+                    It was only a small but very important portion of the IT field. It was a light bulb moment for me and I knew then and there that I wanted to learn more.
+                    <br><br/>
+                    I continued my path by doing a one year course, not only learning software development skills but also a few technical skills and querying data.
+                    <br><br/>
+                    Upon completion, I joined Umuzi, and I am currently upskilling with the goal of being a full stack Web Developer.
+                    <br><br/>
+                    In future I would also like to learn other programming languages and learn how to develop games.
+                  </p>
+              </div>
+            </div>
+        </section>
+        <!-- End About Section -->
+
+        <!-- Skills Section -->
+        <section id="skills">
+          <h1 class="section-heading">SKILLS</h1>
+          <div class="row">
+              <div class="col-md-4">
+                <img src="images/technologies/html.png" class="tech-image">
+                  <h2>tech</h2>                  
+              </div>
+              <div class="col-md-4">
+                  <img src="images/technologies/css.png" class="tech-image">
+                  <h2>tech</h2>
+              </div>
+              <div class="col-md-4">
+                  <img src="images/technologies/nodejs.jpeg" class="tech-image">
+                  <h2>tech</h2>
+              </div>
+              <div class="col-md-4">
+                <img src="images/technologies/sqldb.png" class="tech-image">
+                <h2>tech</h2>
+            </div>
+            <div class="col-md-4">
+              <img src="images/technologies/csharp.png" class="tech-image">
+              <h2>tech</h2>
+          </div>
+          <div class="col-md-4">
+            <img src="images/technologies/comptia.png" class="tech-image">
+            <h2>tech</h2>
+        </div>
+          </div>
+        </section>
+        <!-- End Skills Section -->
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <h1 class="section-heading">PORTFOLIO</h1>
+            <div class="row">
+                <div class="col-md-4" id="memorygame">
+                  <a href="https://github.com/Lisa1400/lisa-memory-game"><img src="images/memorygame.png" class="tech-image"></a>
+                  <p>Memory Game</p>
+                </div>
+                <div class="col-md-4" id="fix">
+                    <a href="https://github.com/Lisa1400/online-booking-system"><img src="images/fixmy.png" class="tech-image"></a>
+                    <p>Doctor's Appointment Booking System</p>
+                </div>
+                <div class="col-md-4" id="semi">
+                    <a href="https://github.com/TauRamodise/Semitone-challenge"><img src="images/semi.png" class="tech-image"></a>
+                    <p>Semitone Game</p>
+                </div>
+          </div>
+            </div>
+        </section>
+        <!-- End Portfolio Section -->
+
+        <!-- Contact Section -->
+            <section id="contacts">
+                  <h1 class="section-heading">CONTACT ME</h1>
+              <form class="form">
+                  <div>
+                      <div>
+                        <label for="fullname">Full Name</label>
+                        <input type="text" class="form-control" id="fullname"  pattern="[a-zA-Z]{3,}" title="Please enter more than 3 letters">
+                        
+                      </div>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email Address</label>
+                          <input type="email" class="form-control" id="email" pattern="[a-zA-Z0-9]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z]{2,}" title="Please enter a valid email address">
+                          <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactNo">Contact Number:</label>
+                            <input type="text" class="form-control" id="contactNo" pattern="[0-9]{10}" title="Please enter 10 digits">
+                            
+                          </div>
+                        <div class="form-group">
+                          <label for="subject">Subject</label>
+                          <input type="text" class="form-control" id="subject" pattern="[a-zA-Z0-9]" title="Please enter the subject you would like to address">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message"></textarea>
+
+                          </div>
+                        
+                  </div>
+                    <button type="submit" class="btn btn-primary">Send Email</button>
+                </form>
+
+            </section>
+        <!-- End Contact Section -->
+
+
+        <!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
+
+              
+                <!-- Footer Elements -->
+              
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3"> <a href="https://www.facebook.com/lisa.mabe.754" class="fb-ic">
+                  <i class="fa fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <a href="https://www.linkedin.com/in/lisa-mabe-0688a8160/" class="li-ic">
+                  <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a> 
+                <a href="https://www.instagram.com/yoki_l33/?hl=en" class="ins-ic">
+                  <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <a href="https://github.com/Lisa1400?tab=repositories" class="ins-ic">
+                  <i class="fa fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+               
+                </div>
+                <!-- Copyright -->
+              
+              </footer>
+              <!-- Footer -->
+        
+        
+        <script
+                src="https://code.jquery.com/jquery-3.4.1.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <script> 
+            $(document).ready(function(){
+            $('.carousel').carousel() });
+        </script>
+
+    </body>
+</html>

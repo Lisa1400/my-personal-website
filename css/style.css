@@ -1,0 +1,84 @@
+
+body {
+    background-color: #218380;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+}
+h2{
+    color: #762547
+}
+
+.navbar{
+    background: #762547; 
+}
+
+section{
+    padding: 80px;
+}
+
+#skills, #portfolio{
+    background: #762547;    
+}
+.about-image{
+    width: 450px;
+    height: auto;
+    
+}
+
+.form{
+    width: 500px;
+}
+
+.section-heading{
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.slide{
+    margin-top:60px;
+}
+
+.d-block{
+    height: 600px;
+}
+ 
+.carousel-caption{
+    top : 350px;
+}
+
+.tech-image{
+    width: 210px;
+    border-radius: 20%;
+
+}
+
+#memorygame:hover{
+    opacity: 0.4;
+}
+
+#fix:hover{
+    opacity: 0.4;
+}
+
+#semi :hover{
+    opacity: 0.4;
+}
+
+
+
+
+
+.portfolio-image{
+    height: 320px;
+}
+
+
+
+.mb-5{
+    text-align: center;
+    margin-bottom: 0px !important;
+}
+.footer-copyright{
+    background: #762547;
+}
